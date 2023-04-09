@@ -1,0 +1,52 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+  }
+  
+  .star-rating {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+  }
+  
+  .stars {
+    font-size: 24px;
+    color: #ccc;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .star {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+  }
+  
+  .star.filled:nth-child(1),
+  .star.filled:nth-child(2),
+  .star.filled:nth-child(3),
+  .star.filled:nth-child(4),
+  .star.filled:nth-child(5) {
+    background-color: gold;
+  }
+  
+  td:first-child, td:last-child {
+    width: 50%;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  
